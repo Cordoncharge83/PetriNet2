@@ -12,6 +12,9 @@ public class Place {
 	public Place(int jeton, String id) {
 		this.jeton = jeton;
 		this.id = id;
+		if (jeton < 0) {
+			throw new IllegalArgumentException("Le nombre de jetons doit être positif");
+		}
 	}
 	
 	public int getJeton() {
@@ -62,4 +65,7 @@ public class Place {
 		}
 	}
 	
+	public String toString() {
+		return ("ID : "+ this.id+ ", nbr jetons : "+ this.getJeton());
+	}
 }
