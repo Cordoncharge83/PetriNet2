@@ -19,6 +19,6 @@ public class InEdge extends Edge{
 	
 	@Override
 	public String toString() {
-		return super.toString()+" Place : "+ this.place.toString();
+		return super.toString()+" Place : "+ this.place.getId();
 	}
 }

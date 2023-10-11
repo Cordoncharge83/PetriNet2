@@ -17,6 +17,9 @@ public class Place {
 		}
 	}
 	
+	public String getId() {
+		return this.id;
+	}
 	public int getJeton() {
 		return this.jeton;
 	}
