@@ -19,6 +19,7 @@ public class Place {
 	
 	public int getJeton() {
 		return this.jeton;
+		
 	}
 	/**
 	 * Cette methode permet de changer le nbr de jeton au sein d'une place apres le declanchement 
@@ -27,6 +28,9 @@ public class Place {
 	 */
 	public void transit(int value) {
 		this.jeton +=value;
+		if (this.jeton < 0) {
+			throw new IllegalArgumentException("Le nombre de jetons doit être positif");
+		}
 	}
 	
 	/**
