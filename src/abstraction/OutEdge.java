@@ -9,11 +9,9 @@ public class OutEdge extends Edge{
 		// TODO Auto-generated constructor stub
 		this.place = place;
 	}
-
-
-	//public OutEdge(int value, String id, Place place2) {
-		// TODO Auto-generated constructor stub
-	//}
 	
+	public String toString() {
+		return super.toString() +" Place : " + this.place.toString();
+	}
 	
 }
