@@ -61,5 +61,8 @@ public class Place {
 			this.inEdges.put(e.getId(), e);
 		}
 	}
-	//ncjsdkcbnhjdsbcidsjncijdscv jdfivbfbv
+	
+	public String toString() {
+		return ("ID : "+ this.id+ ", nbr jetons : "+ this.getJeton());
+	}
 }
