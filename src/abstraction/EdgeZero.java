@@ -6,5 +6,6 @@ public class EdgeZero extends OutEdge{
 		super(0, id, place);
 		// TODO Auto-generated constructor stub
 	}
+	
 
 }
