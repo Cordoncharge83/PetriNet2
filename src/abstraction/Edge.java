@@ -17,6 +17,8 @@ public class Edge {
 		return id;
 	}
 	
-	
+	public String toString() {
+		return "Id : "+this.getId()  + " Value: " + this.value;
+	}
 	
 }

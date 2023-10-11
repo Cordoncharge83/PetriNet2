@@ -14,6 +14,9 @@ public class Place {
 		this.id = id;
 	}
 	
+	public int getJeton() {
+		return this.jeton;
+	}
 	/**
 	 * Cette methode permet de changer le nbr de jeton au sein d'une place apres le declanchement 
 	 * d'une transition
