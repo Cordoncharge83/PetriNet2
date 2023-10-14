@@ -30,6 +30,7 @@ public class Place {
 	}
 	public int getJeton() {
 		return this.jeton;
+		
 	}
 	
 	public HashMap<String, OutEdge> getOutEdges() {
