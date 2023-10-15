@@ -66,7 +66,7 @@ public class Transition {
 	 * @param outEdge
 	 * @author Mouadh
 	 */
-	public void addOutEdge(Vector<OutEdge> outEdges) {
+	public void addOutEdges(Vector<OutEdge> outEdges) {
 		for(OutEdge e : outEdges) {
 			this.outEdges.put(e.getId(), e);
 		}
@@ -77,7 +77,7 @@ public class Transition {
 	 * @param outEdge
 	 * @author Mouadh
 	 */
-	public void addInEdge(Vector<InEdge> inEdges) {
+	public void addInEdges(Vector<InEdge> inEdges) {
 		for(InEdge e : inEdges) {
 			this.inEdges.put(e.getId(), e);
 		}
